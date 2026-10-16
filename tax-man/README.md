@@ -4,11 +4,16 @@ A Grok Bot that gets your expense records ready for tax time.
 
 ## What it does
 - Searches your Gmail for invoices and receipts from the tax year
-- Logs each one in a Google Sheets spreadsheet (for example "2026 TAX PREP") with Date, Vendor, Description, Category, Amount, Currency, Sales tax (HST/GST) if shown, Invoice #, and a link back to the email
-- Sorts expenses into categories like Subscriptions & Software, Utilities & Phone/Internet, Equipment & Electronics, Office Supplies, Travel, Meals, Professional Services, and Other
-- Adds a summary tab with totals by category
+- Logs each one in a Google Sheets spreadsheet (for example "2026 TAX PREP")
+- Sorts expenses into categories and adds a summary tab with totals by category
 - Flags anything it's unsure about instead of guessing
-- Can keep checking for new receipts on a schedule you choose
+- Can keep checking for new receipts on a schedule you choose (see `routine.md`)
+
+## Files
+- [`instructions.md`](instructions.md): the bot's full instructions. Paste this as the description of a new Grok Bot
+- [`first-task.md`](first-task.md): the first message to send it
+- [`routine.md`](routine.md): an optional schedule for ongoing receipt checks
+- [`spreadsheet-layout.md`](spreadsheet-layout.md): the columns and categories it uses
 
 ## Safety rules
 - Read-only on email: it never pays, replies to, forwards, or deletes anything
@@ -20,6 +25,6 @@ A Grok Bot that gets your expense records ready for tax time.
 - Google Drive / Sheets connected
 
 ## Get it
-Template link: coming soon
+Template link: coming soon. For now, use `instructions.md`.
 
 Built by Starship Alves.
