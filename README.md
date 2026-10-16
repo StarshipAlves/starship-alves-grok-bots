@@ -7,6 +7,7 @@ Shareable Grok Bot setups by Starship Alves. Each bot has its own folder with ev
 | Bot | What it does | Folder |
 |---|---|---|
 | Tax Man | Finds invoices and receipts in your Gmail and sorts them into a categorized tax-prep spreadsheet | [tax-man](tax-man/) |
+| Email Detective | Sorts your Gmail weekly, flags likely spam, and asks before sending anything to spam or unsubscribing | [email-detective](email-detective/) |
 
 More bots coming soon.
 
